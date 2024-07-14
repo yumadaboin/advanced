@@ -1,0 +1,108 @@
+@import url(http://fonts-googleapis.com/css?family-open-sans);
+
+*{
+margin: 0;
+padding: 0;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing: border-box;
+}
+
+body{
+font-family: 'open-sans', sans-serif;
+background-color: black;
+ }
+
+ 
+.contenedor{
+	margin: auto;
+    width: 60%;
+    max-width:1000px;
+    position: relative;
+
+ 
+    
+}
+
+.contenedorfotos{
+    margin: auto;
+width: 60%;
+max-width: 700px;
+min-width: 250px;
+text-align: center;
+	
+}
+.containerParrafosabout{
+    margin: auto;
+    width: 60%;
+    max-width: 700px;
+    min-width: 200px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    position: relative;
+    text-align: justify;
+  
+
+}
+
+
+
+sectionefotos{
+    margin: auto;
+    margin-top: -23%;
+    display: flex;
+    width: 250px;
+    height: 230px;
+  
+}
+
+sectionefotos img{
+  
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: .5s ease;
+    object-fit: cover;
+}
+
+
+
+
+
+sectionefotos img:hover{
+    cursor:crosshair;
+    width: 250px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+p8{
+    /** f0oter**/
+    font-size: 20px;
+    font-family:serif;
+    color:var(--colorBlanco);
+    
+}
+
+
+p1{
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    color:var(--colorBlanco);
+    }
+
+
+
+/**configuracion fotos aboutus**/
+
+@keyframes girarhome{
+	from{ transform: rotate(0deg);}
+	to{transform: rotate(360deg);}}
+
+
+/** fin configuracion fotos aboutus**/
+
+
