@@ -25,10 +25,11 @@ background-color: black;
 
 .contenedorfotos{
     margin: auto;
+    margin-top:50px;
     width: 60%;
     max-width: 700px;
     min-width: 200px;
-  text-align: center;
+   text-align: center;
 	
 }
 .containerParrafosabout{
@@ -37,7 +38,7 @@ background-color: black;
     max-width: 700px;
     min-width: 200px;
     margin-top: 10px;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
     position: relative;
     text-align: justify;
   
