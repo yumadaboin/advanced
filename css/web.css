@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(style.css);
+
+
+*{
+margin:0px;
+padding:0px;
+}
+
+#enlaceweb{
+
+
+ background-image: url(../img/servicios/servicioweb.png);
+    background-size: cover;
+	width:250px;
+    height: 200px;
+    margin-left: 10%;
+	margin-bottom: 10%;
+	color: black;
+
+}

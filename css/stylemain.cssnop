@@ -1,0 +1,219 @@
+
+
+@import url(http://fonts-googleapis.com/css?family-open-sans);
+
+*{
+margin: 0;
+padding: 0;
+
+box-sizing: border-box;
+
+}
+
+
+#section{ 
+background-image: url(../img/background/steampunk-3006650_1280.jpg) ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+overflow:hidden;
+padding: 0;
+position: relative;
+width:100%;
+height:100%;
+
+animation: movimiento 8s infinite linear alternate;       
+}
+
+
+
+#sectionWeb{ 
+background-image: url(../img/websites.jpg) ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+overflow:hidden;
+	
+margin-left: 1%;
+	
+
+
+padding: 0;
+position: relative;
+width:98%;
+height:90%;
+
+animation: movimiento 8s infinite linear alternate;       
+}
+
+
+
+#sectionMark{ 
+background-image: url(../img/markenting.jpg) ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+overflow:hidden;
+	
+margin-left: 1%;
+	
+
+
+padding: 0;
+position: relative;
+width:98%;
+height:90%;
+
+animation: movimiento 8s infinite linear alternate;       
+}
+
+#sectionSoft{ 
+background-image: url(../img/software.jpg) ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+overflow:hidden;
+	
+margin-left: 1%;
+	
+
+
+padding: 0;
+position: relative;
+width:98%;
+height:90%;
+
+animation: movimiento 8s infinite linear alternate;       
+}
+
+
+#sectionRobo{ 
+background-image: url(../img/robotics.jpg) ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+overflow:hidden;
+	
+margin-left: 1%;
+	
+
+
+padding: 0;
+position: relative;
+width:98%;
+height:90%;
+
+animation: movimiento 8s infinite linear alternate;       
+}
+
+
+#sectionAbo{ 
+background-image: url(../img/AboutUs/woman-6468147_1280.jpg) ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+overflow:hidden;
+padding: 0;
+position: relative;
+width:100%;
+height:100%;
+
+animation: movimiento 8s infinite linear alternate;       
+}
+
+#sectionNew{ 
+background-image: url(../img/newa.jpg) ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+overflow:hidden;
+margin-left: 1%;
+padding: 0;
+position: relative;
+width:98%;
+height:90%;
+animation: movimiento 8s infinite linear alternate;       
+}
+
+
+
+
+@keyframes movimiento{
+    from{
+    background-position:bottom left;
+    
+    } to{background-position:right;
+    
+    }
+}
+
+#imgflag{
+width:10%;
+display: flex;
+margin-left: 25%;
+}
+
+
+#imgclick{
+width:7%;
+display: flex;
+margin-top: -10%;
+margin-left: 27%;
+}
+	
+#imgLogo{
+
+width:15%;
+margin-top:2%;
+display: flex;
+    }
+	
+
+
+
+    
+
+#imgLogotext{
+float: left;
+width:8%;
+display: flex;
+margin-top: -10%;
+    }
+
+
+#start{
+width: 12%;
+margin-top: 1%;
+margin-left: 70%;
+
+}
+
+#imgporta{
+	width: 5%;
+	margin-top: 5%;
+    margin-left: 15%;
+	}
+
+
+#imgpromotions{
+	width: 5%;
+	margin-left: 30%;
+	margin-top: -20%;
+	}
+
+
+#imgdominio{
+width:70%;
+margin-top: 10%;
+margin-right: 20%;
+margin-left: 15%;
+margin-bottom: 15px;
+
+display: flex;
+
+
+}
+ 
+
+
+

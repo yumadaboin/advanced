@@ -1,0 +1,703 @@
+:root{
+--colorBlanco:#ffffff;
+--colorVerde:rgb(17, 236, 17);
+--colorGris:#8b8b89;
+--body-bg-color: #1a1c1d;
+--text-color: #aaaebc;
+--hr-color: #26292a;
+--red: #e74c3c;
+--colorlogo:#fca510;
+--colorlogot:hsl(38, 98%, 53%, 0.5);
+
+@import url(http://fonts-googleapis.com/css?family-open-sans);
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+
+
+.contenedor{
+margin: auto;
+width: 100%;
+max-width: 1400px;
+position:relative;
+       
+
+}    
+a{
+    text-decoration: none;
+}
+
+ 
+#section{ 
+    background-image: url(../img/background/metallic-propeller-turning-inside-modern-airplane-engine-generated-by-ai\ \(1\).jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    padding: 0;
+    position: relative;
+    width:100%;
+    max-width: 1400px;
+    height: 600px;
+    animation: movimiento 8s infinite linear alternate;       
+    
+}
+
+/*fin section y comienzo section1*/
+.capa p4{
+    font-size: 12px;
+
+}
+#section1{ 
+    background: linear-gradient(rgb(0, 0, 10), rgb(0,0,0));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    width:100%;
+    max-width: 1400px;
+   
+   }
+
+#contenedorjob{
+        margin: 15 0;   
+        margin-top: 20px;
+        width: 100%;
+        max-width: 900px;
+        padding:100px;
+        overflow: hidden;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+  
+    
+      }
+
+      
+    .contenedorj1{
+    position: relative;
+    margin: 10 10;
+    padding: 10px;
+    background-color:transparent;
+    display: flex;
+  
+       
+       }
+      .contenedorj1 figure{
+        margin: auto;
+        position:relative;
+        width: 250px;
+        height: 200px;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 6px;
+        text-align: center;
+    
+       
+      }
+      
+      .contenedorj1 img{
+        margin: auto;
+        width: 200px; 
+        height: 200px;
+        padding:5px;
+        object-fit: cover;
+        text-align: center;
+        
+          }
+      .contenedorj1 figure img{
+         margin: auto;
+         transition: all 500ms ease-out;
+         will-change: transform;
+      }
+      .contenedorj1 figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background:#fca510;
+         transition: all 500ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+         text-align: center;
+      }
+      .contenedorj1 figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+      }
+      .contenedorj1 figure:hover > .capa h4{
+         margin-top: 10px;
+         margin-bottom: 15px;
+      }
+      .contenedorj1 figure:hover > img{
+         transform: scale(1.3);
+      }
+      .contenedorj1 figure .capa h4{
+        margin: auto;
+        margin-left: 2px;
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+         margin-top: 30px;
+      }
+      .contenedorj1 figure .capa p4{
+        margin:auto;
+        margin-left: 6px;
+        margin-right: 6px;
+        text-align: center;
+        line-height: 1.3;
+        width: 100%;
+        max-width: 120px;
+        margin-top: 1px;
+        
+      }
+      
+
+
+
+#section2{ 
+    background: url(../img/background/view-3d-airplane-with-wings-engine\ \(1\).jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+ }
+
+header .contenedor{
+    display: table;
+
+}
+
+ 
+.grid-container {
+    margin: auto;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    object-fit: cover;
+    padding: 20px;
+  
+  
+  }
+
+  
+
+.grid-container.skill .studies {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 20%;
+    object-fit: cover;
+    padding: 20px;
+    }
+    
+  .skill figure{
+    margin: 1em;
+    position:relative;
+    width: 100%;
+    max-width: 180px;
+    height: 180px;
+     cursor: pointer;
+     overflow: hidden;
+     border-radius: 8px;
+     box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .skill img{
+    margin: auto;
+    align-content: center;
+    width:100%; 
+    height: 180px;
+    text-align: center;
+  
+  }
+  .skill figure img{
+   
+     transition: all 100ms ease-in;
+     will-change: transform;
+  }
+  .skill figure .capa{
+    margin: auto;
+     position: absolute;
+     top: 0;
+     width: 100%;
+     max-width: 180px;
+     height: 100%;
+     background:#669abd;
+     transition: all 500ms ease-out;
+     opacity: 0;
+     visibility: hidden;
+     text-align: center;
+  
+  }
+
+/**.sociales ul li .icon-mail {background:transparent;font-size: 200%;}
+.sociales ul li .icon-instagram {background:transparent;font-size: 200%;}**/
+   
+#pag3{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+#pag3 img{
+    width: 60%;
+    transition: all 300ms;
+    position: relative;
+}
+
+#pag3 img:hover{
+    transform: scale(1.5);
+}
+#img1{
+    position: absolute;
+    margin-top:-150%;
+    margin-left: -65%;
+    border-radius: 50%;
+   }
+ #img2{
+    position: absolute;
+    margin-top:-70%;
+    margin-left: -65%;
+    border-radius: 50%;
+  
+ }
+ #img3{
+    position: absolute;
+    margin-top:-10%;
+    margin-left: -65%;
+    border-radius: 50%;
+  
+ }
+#fotos1{
+    width: 15vmax;
+    height: 15vmax;
+    margin-left:15%;
+    border-radius: 6%;
+
+}
+#fotos2{
+    width: 15vmax;
+    height: 15vmax;
+    border-radius: 6%;
+}
+
+#fotos3{
+    width: 12vmax;
+    height: 12vmax;
+    border-radius: 6%;
+
+}
+#fotomechanical{
+    width: 40%;
+    height: 55%;
+    margin-top:80%;
+    margin-left: 10%;
+    border-radius: 6%;
+
+} 
+
+/* fotos aboutus */
+
+.sectionefotos{
+    margin-top: -23%;
+    display: flex;
+    width: 300px;
+    height: 230px;
+    margin-left: 3%;
+}
+
+.sectionefotos img{
+
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: .5s ease;
+}
+
+.sectionefotos img:hover{
+    cursor:crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
+#fotosjr img{
+width: 0px;
+flex-grow: 1;
+object-fit: cover;
+opacity: .8;
+transition: .5s ease;
+}
+
+#fotojr img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+}
+#fotojr{
+    display: flex;
+    width: 40%;
+    height: 55%;
+   
+ }
+
+.slogan { /** formato para el slogan**/
+    margin-top: 15%;
+    font-size: 90%;
+    margin-bottom:10%;
+    margin-left:15%;
+    font-family:serif;
+ }
+
+ p{
+    font-size: 100%;
+    margin-left:20%;
+	margin-top: 2%;
+    float: center;
+    color:#000000;
+    font-family:sans-serif;
+}
+/**configuracion fotos aboutus**/
+    
+#Home{    
+    width: 13%;
+    height: 25%;
+    margin-left: 60%;
+    padding: 1 15px;
+    border-radius: 50%; }
+
+#home{
+    margin-left:60%;
+    margin-top: -20%;
+    width: 5%;
+    height:10%;
+    border-radius: 50%;}
+
+#home:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ffffff;
+    -webkit-box-shadow: 0px 0px 15px 15px #fff;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    animation-name: girarhome;
+    animation-duration: 10s;
+    animation-iteration-count:inherit;
+    animation-timing-function:initial;
+    display: inline-block;
+
+} 
+
+@keyframes girarhome{
+	from{ transform: rotate(0deg);}
+	to{transform: rotate(360deg);}}
+
+
+/** fin configuracion fotos aboutus**/
+p{
+    margin: auto;
+    font-size: 20px;
+    color:var(--colorBlanco);
+    font-family:sans-serif;
+}
+
+
+
+p2{
+    font-size: 100%;
+    text-align: center ;
+	float: center;
+    color:var(--colorBlanco);
+    font-family:sans-serif;
+}
+
+
+
+
+
+p3{
+   
+   font-size: 100%;
+    margin-left:10%;
+	margin-right: 10%;
+	margin-top: 2%;
+    float: right;
+    color:#455A64;
+    font-family:sans-serif;
+	
+}
+
+p4{
+   
+    font-size: 150%;
+    margin-left:30%;
+	margin-top: 2%;
+	color:var(--colorBlanco);
+    font-family:sans-serif;
+	
+}
+
+
+p7{
+   
+    font-size: 120%;
+    color:var(--colorBlanco);
+    font-family:sans-serif;
+    margin-left: 20%;
+    
+  
+}
+
+p12{
+    margin-left: 45px;
+    margin-top: 5%;
+    text-align: justify;
+    font-size: 18px;
+    /**font-family:serif;**/
+
+}
+/**color de letra de seccion contacto**/
+h01{
+color: darkgray;
+
+}
+h13{
+    margin-left: 45%;
+    margin-top: 3%;
+    font-size: 25px;
+    color: dodgerblue;
+	animation-iteration-count: infinite;
+	}
+
+h14{
+    margin-left: 45%;
+    margin-top: 3%;
+    font-size: 25px;
+    color: dodgerblue;
+	animation-iteration-count: infinite;
+ }
+h15{
+    margin-left: 15px;
+    margin-top: 1%;
+    font-size: 25px;
+    color: dodgerblue;
+	animation-iteration-count: infinite;
+ }
+
+h16{
+    margin-left: 45%;
+    margin-top: 20%;
+    font-size: 15px;
+    color: #000000;
+	animation-iteration-count: infinite;
+ }
+ h5{ /** formato Acerca de npsptros web**/
+    font-size: 100%;
+    margin-top: 1%;
+	margin-bottom:1%;
+    font-family:serif;
+    color: #01579B;
+    float: center;
+ }
+
+
+h3{ /** formato servicios mantenimiento**/
+    font-size: 100%;
+    margin: auto;
+  /*  margin-top: -6%;
+	margin-bottom: 5%;
+    margin-left: 40%;
+    font-family:serif;*/
+    color: #000000;
+      float: justify;
+   
+}
+hf{
+    color:var(--colorBlanco);
+    text-underline-offset: hf;
+}
+
+
+
+h4{
+    /** formato servicios markentig**/
+    font-size: 20px;
+    margin-top: -6%;
+	margin-bottom: 7%;
+   font-family:serif;
+   text-align: center;
+}
+
+
+h5{
+    /** TITLES**/
+    font-size: 100%;
+    margin-top: 5%;
+	margin-bottom: 5%;
+    margin-left: 40%;
+    font-family:serif;
+    color: darkblue;
+    float: center;
+}
+
+
+/**portafolio**/
+
+
+
+
+  hr {
+    border-color: var(--colorBlanco);
+    margin: 20px 0;
+  }
+ /*   .page-footer {
+    position: relative;
+    bottom: 20px;
+    margin-left: -15%;
+    font-size: 1rem;
+  }*/
+  
+ 
+/**/
+
+
+.textosserv{
+    text-align: justify;
+    margin-top: -15%;
+}
+
+
+.textos{
+text-align: justify;
+margin-top: -15%;
+}
+
+
+p11{
+    margin-right: 15px;
+    margin-top: 5%;
+    text-align: justify;
+    font-size: 18px;
+    /**font-family:serif;**/
+}
+
+/**  estilo bonton presupuesto **/
+
+
+a.btnestimate {
+    display: block;
+    width: 42%;
+    height: 60px;
+    padding: 15px 0 0 0;
+    margin: 0 auto;
+   
+    background:  #696969;
+    background: -moz-linear-gradient(top,	#D3D3D3 0%,	#778899 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D3D3D3), color-stop(100%, #778899));
+ 
+    box-shadow: inset 0px 0px 6px #fff;
+    -webkit-box-shadow: inset 0px 0px 6px #fff;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+ 
+    font: bold 25px Helvetica, Sans-Serif;
+    text-align: center;
+	margin-bottom: 15px;
+   /** text-transform: uppercase; **/
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 1px 2px #62C2F9;
+}
+
+
+a.btnestimate:hover {
+   /** background: rgba(244,242,242,0.2);**/
+	color: rgba(255,255,224,0.8);   	}
+/** fin  **/
+   
+  
+/**  configuracion promotions  video**/
+#seccionVideo{ 
+margin-top: 1%;
+width: 95%;
+height: 87%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+overflow:hidden;
+	
+margin-left: 1%;
+
+
+padding: 0;
+position: relative;
+
+ 
+}
+
+
+/**configuracion iconos social **/
+
+.icon{
+    font-size: 4em;
+    color:var(--colorBlanco);
+
+}
+
+
+.icon:hover{
+    text-decoration: none;
+    color:var(--colorlogo); 
+}
+
+
+.icong{
+    font-size: 4em;
+    color:var(--colorBlanco);
+    border-radius: 50px;
+    box-shadow: 0px 1px 10px rgba(9, 9, 9, 0.3);
+    z-index: 100;   
+}
+
+.icong:hover{
+      text-decoration: none;
+      color:var(--colorVerde); 
+}
+#textos{
+    text-align: justify;
+    }
+
+ 
+@keyframes movimiento{
+    from{
+    background-position:bottom left;
+    
+    } to{background-position:right;
+    
+    }
+}

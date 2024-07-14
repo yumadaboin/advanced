@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+#seccionfooter{ 
+background-image: url(../img/background/backgroundfotter.jpg) ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+width: 100%;
+max-width: 1400px;
+animation: movimiento 8s infinite linear alternate;   
+
+}
+
+.containerParrafos{
+margin: auto;
+position: relative;
+width:50%;
+margin-bottom: 15%;
+text-align: justify;
+
+}
+
+.containerparrafosii{
+    margin: auto;
+	width: 50%;
+	height: 50%;
+	margin-top: -90px;
+	text-align: center;
+	position: relative;
+   
+}
+
+
+p8{
+    /** f0oter**/
+    font-size: 20px;
+    font-family:serif;
+    color:var(--colorBlanco);
+    
+}
+
+
+p1{
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+    color:var(--colorBlanco);
+    }
+
+
+@keyframes movimiento{
+    from{
+    background-position:bottom left;
+    
+    } to{background-position:bottom right;
+    
+    }
+}
+  

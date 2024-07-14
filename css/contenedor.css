@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.contenedorMain{
+    width: 100%;
+	height: 100%;
+	
+	
+}
+
+	
+.contenedorsection{
+	width: 100%;
+	height: 100%;
+
+	
+}
+
+
+
+.contenedortitles{
+	width: 50%;
+	height: 40%;
+	margin-top: -2%;
+	margin-left: 5%;
+}
+
+
+
+.contenedorfotos{
+	width: 70%;
+	height: 70%;
+	margin-top: -10% ;
+}
+.contenedorfotosm{
+	width: 70%;
+	height: 70%;
+	margin-top: -80% ;
+}
+
+/**section 1**/
+.contenedorfotos1{
+	width: 50%;
+	height: 40%;
+	margin-top:4% ;
+	margin-left: 2%;
+}
+.contenedorfotos2{
+	width: 20%;
+	height: 10%;
+	margin-top:6% ;
+	margin-left: 65%;
+}
+
+.contenedorfotos3{
+	width: 20%;
+	height: 10%;
+	margin-top:1% ;
+	margin-left: 8%;
+	margin-bottom: 2%;
+}
+.contenedorfotosleft{
+    width: 40%;
+	margin-bottom: 5%;
+	margin-top:10% ;
+    }
+
+
+.contenedorfotosRight{
+    width: 90%;
+	margin-bottom: 5%;
+	margin-top:10% ;
+	margin-left: 30%;
+	
+    }
+.contenedormechanical{
+	width: 25%;
+	margin-top:-25% ;
+	margin-left: 5%;
+	text-align: justify;
+
+
+}
+
+.contenedoris{
+	width: 25%;
+	margin-top:-25% ;
+	margin-left: 5%;
+	text-align: justify;
+
+}
+
+.contenedords{
+	width:25%;
+	margin-top:-49% ;
+	margin-left: 65%;
+	margin-right: 2%;
+	text-align: justify;
+}
+
+.contenedordi{
+	width: 25%;
+	margin-top:2% ;
+	margin-left: 5%;
+	
+	text-align: justify;
+}
+
+.contenedorslider{
+	
+	margin-top:70% ;
+	
+}
+
+
+.containerparrafosii{
+	width: 25%;
+	height: 50%;
+	margin-left: 63%;
+	margin-top: -28%;
+	text-align: justify;
+	position: relative;
+
+}
+
+
+.containerparrafosi{
+	width: 100%;
+	height: 50%;
+	margin-top:9%;
+	position: relative;
+	margin-left: -4%;
+
+}
+
+.containerserv{
+	width: 35%;
+	height: 50%;
+	margin-left: 53%;
+	margin-top: -65%;
+	text-align: justify;
+	position: relative;
+
+
+}
+.containerab{
+
+	width: 30%;
+	height: 50%;
+	margin-left: 57%;
+	margin-top: -65%;
+	text-align: justify;
+	position: relative;
+
+}
+
+
+#containermenuI{
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+	background-color: rgb(164, 93, 12);
+}
+
+
+
+hover.contenedor{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
